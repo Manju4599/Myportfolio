@@ -1,0 +1,116 @@
+/* Footer.css */
+
+.footer {
+  border-top: 1px solid var(--border);
+  background: var(--bg-surface);
+  padding-block: var(--space-10);
+}
+
+.footer__inner {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  grid-template-rows: auto auto;
+  align-items: center;
+  gap: var(--space-6) var(--space-8);
+}
+
+.footer__brand {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+}
+
+.footer__logo {
+  width: 32px;
+  height: 32px;
+  border-radius: var(--radius-sm);
+  background: var(--accent);
+  color: var(--bg-base);
+  font-family: var(--font-display);
+  font-size: 0.75rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.footer__name {
+  font-family: var(--font-display);
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  letter-spacing: -0.01em;
+}
+
+.footer__tagline {
+  font-size: 0.75rem;
+}
+
+.footer__nav {
+  display: flex;
+  align-items: center;
+  gap: var(--space-6);
+  justify-content: center;
+}
+
+.footer__nav-link {
+  font-size: 0.82rem;
+  color: var(--text-tertiary);
+  text-decoration: none;
+  transition: color var(--duration-fast);
+}
+
+.footer__nav-link:hover {
+  color: var(--text-primary);
+}
+
+.footer__social {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+}
+
+.footer__social-link {
+  width: 34px;
+  height: 34px;
+  border-radius: var(--radius-sm);
+  background: var(--bg-elevated);
+  border: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-tertiary);
+  text-decoration: none;
+  transition: all var(--duration-fast);
+}
+
+.footer__social-link:hover {
+  color: var(--text-primary);
+  border-color: rgba(255, 255, 255, 0.15);
+}
+
+.footer__copy {
+  grid-column: 1 / -1;
+  font-size: 0.7rem;
+  color: var(--text-tertiary);
+  letter-spacing: 0.04em;
+  padding-top: var(--space-4);
+  border-top: 1px solid var(--border-subtle);
+}
+
+@media (max-width: 768px) {
+  .footer__inner {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    gap: var(--space-6);
+  }
+  .footer__nav {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: var(--space-4);
+  }
+  .footer__social {
+    justify-content: flex-start;
+  }
+}
