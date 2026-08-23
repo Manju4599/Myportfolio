@@ -360,6 +360,7 @@
   }
   .hero__visual {
     max-width: 480px;
+    margin: 0 auto;
   }
   .hero__scroll-hint { display: none; }
 }

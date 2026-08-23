@@ -65,7 +65,7 @@
   --duration-slow: 400ms;
 
   /* Layout */
-  --container-max: 1200px;
+  --container-max: 1440px;
   --section-gap: clamp(5rem, 10vw, 8rem);
 }
 
@@ -284,4 +284,10 @@ code, pre { font-family: var(--font-mono); }
   height: 1px;
   background: var(--border);
   width: 100%;
+}
+
+@media (min-width: 1440px) {
+  html {
+    font-size: 18px;
+  }
 }

@@ -211,7 +211,7 @@
   .repo-card { transition: none; }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 640px) {
   .github__repos {
     grid-template-columns: 1fr;
   }

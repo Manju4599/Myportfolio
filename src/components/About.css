@@ -121,12 +121,12 @@
   padding-bottom: 0;
 }
 
-@media (max-width: 1100px) {
+@media (max-width: 1024px) {
   .about__layout {
     grid-template-columns: 1fr;
   }
   .about__thinking {
-    max-width: 540px;
+    max-width: none;
   }
 }
 
