@@ -94,7 +94,6 @@ export const SKILLS = {
     { name: 'MySQL', level: 'primary' },
     { name: 'PostgreSQL', level: 'secondary' },
     { name: 'Git', level: 'primary' },
-    { name: 'Docker', level: 'secondary' },
   ],
 };
 
@@ -283,7 +282,7 @@ export const PROJECTS = [
     relevantRoles: ['Software Engineering', 'Python Developer'],
     status: 'Prototype',
     github: 'https://github.com/Manju4599/Enterprise-Job-Scheduler',
-    tags: ['Python', 'FastAPI', 'PostgreSQL', 'React', 'Next.js', 'Docker', 'TypeScript'],
+    tags: ['Python', 'FastAPI', 'PostgreSQL', 'React', 'Next.js', 'TypeScript'],
     summary:
       'A distributed, multi-tenant background job execution platform enforcing at-least-once delivery, workflow DAG execution, bulkhead isolation between tenants, and circuit breakers to protect downstream services.',
     problem:
@@ -298,7 +297,6 @@ export const PROJECTS = [
     techStack: {
       backend: ['Python', 'FastAPI', 'asyncpg', 'SQLAlchemy', 'PostgreSQL'],
       frontend: ['Next.js', 'TypeScript', 'React'],
-      infra: ['Docker', 'docker-compose'],
     },
   },
   {
@@ -361,7 +359,6 @@ export const THINKING_PROCESS = [
 
 export const NAV_ITEMS = [
   { label: 'Work', href: '#projects' },
-  { label: 'Experience', href: '#experience' },
   { label: 'Skills', href: '#skills' },
   { label: 'About', href: '#about' },
   { label: 'Contact', href: '#contact' },

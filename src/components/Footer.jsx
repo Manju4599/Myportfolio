@@ -56,7 +56,7 @@ export default function Footer() {
 
         {/* Copyright */}
         <div className="footer__copy">
-          <span className="font-mono">© {currentYear} Manjunath R · Built with React + Vite</span>
+          <span className="font-mono">© {currentYear} Manjunath R</span>
         </div>
       </div>
     </footer>
