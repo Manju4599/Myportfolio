@@ -9,7 +9,7 @@ export const PROFILE = {
     'I work across Python, SQL, analytics, and machine learning to build systems that turn raw data into usable decisions. Currently completing my B.Tech in Computer Science with a specialization in Big Data Analytics.',
   email: 'vkmanjunathrv@gmail.com',
   github: 'https://github.com/Manju4599',
-  linkedin: 'https://linkedin.com/in/manjunath-r-00702524a',
+  linkedin: 'https://linkedin.com/in/Manjunath-ramasamy',
   location: 'Chennai, India',
   resumeUrl: '/Manjunath_Resume.pdf',
 };
